@@ -1,0 +1,25 @@
+{
+  "name": "@sigitex/ssjs",
+  "version": "0.0.1",
+  "type": "module",
+  "exports": "./src/index.ts",
+  "license": "MIT",
+  "author": {
+    "name": "Sigitex",
+    "url": "http://github.com/sigitex"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sigitex/toolkit.git"
+  },
+  "scripts": {
+    "test": "bun test --pass-with-no-tests",
+    "check": "tsgo --noEmit"
+  },
+  "devDependencies": {
+    "@typescript/native-preview": "beta"
+  },
+  "files": [
+    "src"
+  ]
+}
