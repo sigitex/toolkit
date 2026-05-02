@@ -9,7 +9,7 @@ module.exports = {
     "@semantic-release/release-notes-generator",
     ["@semantic-release/exec", {
       prepareCmd: "npm pkg set version=${nextRelease.version}",
-      publishCmd: "echo '//registry.npmjs.org/:_authToken='$NPM_TOKEN > .npmrc && npm publish",
+      publishCmd: "npm publish --access public",
     }],
     "@markwylde/semantic-release-gitea",
   ],
