@@ -1,4 +1,5 @@
 import "./console"
+import "./crypto"
 import "./encoding"
 import "./fetch"
 import "./url"

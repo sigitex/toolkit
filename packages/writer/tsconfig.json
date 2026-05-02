@@ -10,7 +10,6 @@
     "skipDefaultLibCheck": true,
     "skipLibCheck": true,
     "strict": true,
-    "outDir": "lib",
     "composite": true,
     "noEmit": true
   },
