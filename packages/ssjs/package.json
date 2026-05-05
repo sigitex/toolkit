@@ -13,11 +13,12 @@
     "url": "https://github.com/sigitex/toolkit.git"
   },
   "scripts": {
-    "test": "bun test --pass-with-no-tests",
-    "check": "tsgo --noEmit"
+    "test": "bun test --pass-with-no-tests --tsconfig-override tsconfig.test.json",
+    "check": "tsgo --build"
   },
   "devDependencies": {
-    "@typescript/native-preview": "beta"
+    "@typescript/native-preview": "beta",
+    "@types/bun": "^1.3.13"
   },
   "files": [
     "src"
