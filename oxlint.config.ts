@@ -44,6 +44,7 @@ export default defineConfig({
     "no-underscore-dangle": "off",
     "no-use-before-define": "off",
     "unicorn/numeric-separators-style": "off",
+    "prefer-destructuring": "off",
     "prefer-for-of": "off",
     "prefer-template": "off",
     "prefer-ternary": "off",
@@ -67,11 +68,16 @@ export default defineConfig({
       files: ["*.test.ts"],
       rules: {
         "typescript/no-explicit-any": "off",
+        "typescript/no-require-imports": "off",
+        "typescript/no-var-requires": "off",
+        "unicorn/prefer-module": "off",
+        "unicorn/consistent-function-scoping": "off",
       },
     },
     {
       files: ["*.d.ts"],
       rules: {
+        "typescript/no-explicit-any": "off",
         "unicorn/consistent-function-scoping": "off",
         "typescript/consistent-type-definitions": "off",
       },
