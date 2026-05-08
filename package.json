@@ -19,6 +19,7 @@
       "packages/*"
     ]
   },
+  "type": "module",
   "scripts": {
     "prepare": "husky",
     "test": "bun run --workspaces --parallel --no-exit-on-error test",
