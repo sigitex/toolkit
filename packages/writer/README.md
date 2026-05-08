@@ -2,9 +2,9 @@
 
 `bun add @sigitex/writer`
 
-> **Note:** This package currently exports TypeScript sources directly. A TypeScript-compatible runtime or bundler (Bun, etc.) is required.
-
 A lightweight, chainable string builder with support for indentation, iteration, preformatted text, and content redaction. Useful for code generation, structured text output, and templating.
+
+> **Note:** This package currently exports TypeScript sources directly. A TypeScript-compatible runtime or bundler (Bun, etc.) is required.
 
 For a higher-level, declarative approach to string building, see [`@sigitex/print`](../print), which is built on top of `Writer`.
 
