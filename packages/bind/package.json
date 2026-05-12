@@ -4,6 +4,7 @@
   "type": "module",
   "exports": "./src/bind.ts",
   "license": "MIT",
+  "description": "A lightweight dependency injection container.",
   "author": {
     "name": "Sigitex",
     "url": "http://github.com/sigitex"

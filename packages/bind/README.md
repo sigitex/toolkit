@@ -1,6 +1,6 @@
 # bind
 
-A lightweight dependency injection container with lazy resolution and proxy-based injection.
+A lightweight dependency injection container.
 
 `bun add @sigitex/bind`
 
