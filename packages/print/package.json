@@ -1,5 +1,6 @@
 {
   "name": "@sigitex/print",
+  "description": "A declarative string builder for generating structured text.",
   "version": "0.0.1",
   "type": "module",
   "exports": {

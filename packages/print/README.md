@@ -1,10 +1,12 @@
 # print
 
+A declarative string builder for generating structured text output. 
+
 `bun add @sigitex/print`
 
 > **Note:** This package currently exports TypeScript sources directly. A TypeScript-compatible runtime or bundler (Bun, etc.) is required.
 
-A declarative string builder for generating structured text output. You describe output as a tree of **nodes** -- strings, arrays, helper objects -- and `print` renders them into a formatted string.
+You describe output as a tree of **nodes** -- strings, arrays, helper objects -- and `print` renders them into a formatted string.
 
 ## Quick start
 

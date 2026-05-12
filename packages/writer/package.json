@@ -1,5 +1,6 @@
 {
   "name": "@sigitex/writer",
+  "description": "A lightweight, chainable string builder.",
   "version": "0.0.1",
   "type": "module",
   "exports": "./src/Writer.ts",
