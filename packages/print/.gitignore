@@ -1,5 +1,4 @@
-.opencode
 node_modules
 *.tsbuildinfo
 dist
-packages/*/lib
+.opencode

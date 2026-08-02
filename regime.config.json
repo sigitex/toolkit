@@ -1,10 +1,20 @@
 {
+  "sources": {
+    "sigitex": "../templates"
+  },
   "templates": [
-    "profile/monorepo/root",
-    "workflow/mirror",
-    "workflow/publish-npm"
+    "sigitex:project/package",
+    "sigitex:project/monorepo",
+    "sigitex:project/workspace",
+    "sigitex:tool/oxc",
+    "sigitex:tool/commitlint",
+    "sigitex:tool/husky",
+    "sigitex:workflow/mirror",
+    "sigitex:workflow/publish-npm"
   ],
   "vars": {
-    "repo": "toolkit"
+    "repo": "toolkit",
+    "license": "MIT",
+    "copyright": "Sigitex"
   }
 }

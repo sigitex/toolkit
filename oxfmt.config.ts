@@ -13,4 +13,18 @@ export default defineConfig({
   bracketSameLine: false,
   bracketSpacing: true,
   ignorePatterns: ["**/*.gen.ts"],
-});
+  overrides: [
+    {
+      files: ["**/ui/**/*.ts"],
+      options: {
+        printWidth: 60,
+      },
+    },
+    {
+      files: ["**/*.tsx"],
+      options: {
+        printWidth: 70,
+      },
+    },
+  ],
+})

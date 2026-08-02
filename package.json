@@ -5,7 +5,7 @@
   "license": "MIT",
   "author": {
     "name": "Sigitex",
-    "url": "http://github.com/sigitex"
+    "url": "https://sigitex.com"
   },
   "repository": {
     "type": "git",
@@ -31,7 +31,6 @@
     "@commitlint/cli": "^20.5.3",
     "@commitlint/config-conventional": "^20.5.3",
     "husky": "^9.1.7",
-    "@typescript/native-preview": "beta",
     "oxfmt": "^0.47.0",
     "oxlint": "^1.62.0",
     "multi-semantic-release": "^3.1.0",
