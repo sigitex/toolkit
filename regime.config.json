@@ -10,7 +10,8 @@
     "sigitex:tool/commitlint",
     "sigitex:tool/husky",
     "sigitex:workflow/mirror",
-    "sigitex:workflow/publish-npm"
+    "sigitex:workflow/publish-npm",
+    "sigitex:license/mit"
   ],
   "vars": {
     "repo": "toolkit",
